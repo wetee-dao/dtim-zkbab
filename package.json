@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@polkadot/api": "^10.1.4",
+    "@polkadot/extension-inject": "^0.45.3",
+    "@polkadot/util": "^11.1.1",
+    "@polkadot/util-crypto": "^11.1.1",
+    "@polkadot/extension-dapp": "^0.45.3",
+    "bignumber.js": "^9.1.1",
+    "ethers": "^5.7.0",
+    "manta-extension-connect": "^1.2.4",
+    "manta-extension-sdk": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "bn.js": "^5.2.0",
+    "web3": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
