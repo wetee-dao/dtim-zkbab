@@ -10,17 +10,18 @@
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@polkadot/api": "^10.1.4",
+    "@polkadot/extension-dapp": "^0.45.3",
     "@polkadot/extension-inject": "^0.45.3",
     "@polkadot/util": "^11.1.1",
     "@polkadot/util-crypto": "^11.1.1",
-    "@polkadot/extension-dapp": "^0.45.3",
+    "ali-oss": "^6.17.1",
     "bignumber.js": "^9.1.1",
+    "bn.js": "^5.2.0",
     "ethers": "^5.7.0",
     "manta-extension-connect": "^1.2.4",
     "manta-extension-sdk": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "bn.js": "^5.2.0",
     "web3": "^1.10.0"
   },
   "devDependencies": {

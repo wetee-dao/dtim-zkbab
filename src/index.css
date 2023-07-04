@@ -82,3 +82,56 @@ button:focus-visible {
   top: 2rem;
   left: 0.6rem;
 }
+
+.loading-wrap{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #0000008f;
+  text-align: center;
+}
+
+.loader {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border:10px solid #FFF;
+  border-radius: 50%;
+  position: relative;
+  transform:rotate(45deg);
+  box-sizing: border-box;
+  margin-top: 40vh;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  inset:-10px;
+  border-radius: 50%;
+  border:10px solid #FF3D00;
+  animation: prixClipFix 2s infinite linear;
+}
+
+@keyframes prixClipFix {
+    0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+    25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+    75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+    100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+}
+
+.sbt-wrap{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.sbt-wrap div{
+  height: 100px;
+  background-color: #2f1c01;
+  font-size: 30px;
+  color: #fff;
+  line-height: 100px;
+}
