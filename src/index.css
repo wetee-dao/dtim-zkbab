@@ -123,15 +123,15 @@ button:focus-visible {
 }
 
 .sbt-wrap{
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 10%;
+  width: 300px;
+  margin-left: calc(50% - 150px);
+  margin-top: calc(50vh - 200px);
 }
 
 .sbt-wrap div{
-  height: 100px;
+  height: 80px;
   background-color: #2f1c01;
-  font-size: 30px;
+  font-size:24px;
   color: #fff;
-  line-height: 100px;
+  line-height: 80px;
 }
